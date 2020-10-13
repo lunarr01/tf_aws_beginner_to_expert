@@ -1,0 +1,11 @@
+#  Local .terraform directories
+**/.terraform/*
+# .tfstate files
+*.tfstate
+*.tfstate.*
+*.tfplan
+# eks modulefiles
+**/config-map-aws-auth*.yaml
+**/kubeconfig*
+# OS specific
+*.DS_Store
